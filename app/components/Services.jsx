@@ -1,6 +1,7 @@
 import React from "react";
 import { LiaVectorSquareSolid } from "react-icons/lia";
 import { FaArrowRight } from "react-icons/fa6";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -34,10 +35,11 @@ const Services = () => {
                 <div class="grid max-w-lg gap-5 mx-auto md:grid-cols-2 md:max-w-none lg:grid-cols-4 lg:max-w-none">
                   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
                     <div class="flex-shrink-0">
-                      <img
-                        class="object-cover w-full h-48"
-                        src="https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60"
-                        alt=""
+                      <Image
+                      src="/meeting2.jpg"
+                      width={500}
+                      height={500}
+                      alt="Picture of services card"
                       />
                     </div>
                     <div class="flex flex-col justify-center flex-1 p-3 bg-white">
@@ -62,10 +64,11 @@ const Services = () => {
                   </div>
                   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
                     <div class="flex-shrink-0">
-                      <img
-                        class="object-cover w-full h-48"
-                        src="https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60"
-                        alt=""
+                    <Image
+                      src="/meeting2.jpg"
+                      width={500}
+                      height={500}
+                      alt="Picture of services card"
                       />
                     </div>
                     <div class="flex flex-col justify-center flex-1 p-3 bg-white">
@@ -90,10 +93,11 @@ const Services = () => {
                   </div>
                   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
                     <div class="flex-shrink-0">
-                      <img
-                        class="object-cover w-full h-48"
-                        src="https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60"
-                        alt=""
+                    <Image
+                      src="/meeting2.jpg"
+                      width={500}
+                      height={500}
+                      alt="Picture of services card"
                       />
                     </div>
                     <div class="flex flex-col justify-center flex-1 p-3 bg-white">
@@ -118,10 +122,11 @@ const Services = () => {
                   </div>
                   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
                     <div class="flex-shrink-0">
-                      <img
-                        class="object-cover w-full h-48"
-                        src="https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60"
-                        alt=""
+                    <Image
+                      src="/meeting2.jpg"
+                      width={500}
+                      height={500}
+                      alt="Picture of services card"
                       />
                     </div>
                     <div class="flex flex-col justify-center flex-1 p-3 bg-white ">

@@ -1,6 +1,6 @@
+import Image from "next/image";
 import React from "react";
 import { LiaVectorSquareSolid } from "react-icons/lia";
-
 
 const Skills = () => {
   return (
@@ -24,7 +24,9 @@ const Skills = () => {
                 whereas standardized networks.
               </p>
               <div className="py-5">
-                <h1 className="text-sm font-bold text-center">Business Strategy</h1>
+                <h1 className="text-sm font-bold text-center">
+                  Business Strategy
+                </h1>
                 <div class="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
                   <div class="relative h-4 flex items-center justify-center">
                     <div class="absolute top-0 bottom-0 left-0 rounded-lg w-[85%] bg-[#684DF4]"></div>
@@ -35,7 +37,9 @@ const Skills = () => {
                 </div>
               </div>
               <div>
-                <h1 className="text-sm font-bold text-center">Softwer Development</h1>
+                <h1 className="text-sm font-bold text-center">
+                  Softwer Development
+                </h1>
                 <div class="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
                   <div class="relative h-4 flex items-center justify-center">
                     <div class="absolute top-0 bottom-0 left-0 rounded-lg w-[95%] bg-[#684DF4]"></div>
@@ -46,7 +50,9 @@ const Skills = () => {
                 </div>
               </div>
               <div className="py-5">
-                <h1 className="text-sm font-bold text-center">Cyber Security</h1>
+                <h1 className="text-sm font-bold text-center">
+                  Cyber Security
+                </h1>
                 <div class="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
                   <div class="relative h-4 flex items-center justify-center">
                     <div class="absolute top-0 bottom-0 left-0 rounded-lg w-[80%] bg-[#684DF4]"></div>
@@ -57,7 +63,9 @@ const Skills = () => {
                 </div>
               </div>
               <div className="pb-5">
-                <h1 className="text-sm font-bold text-center">Artificial Intelligence</h1>
+                <h1 className="text-sm font-bold text-center">
+                  Artificial Intelligence
+                </h1>
                 <div class="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
                   <div class="relative h-4 flex items-center justify-center">
                     <div class="absolute top-0 bottom-0 left-0 rounded-lg w-[90%] bg-[#684DF4]"></div>
@@ -68,10 +76,11 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <img
-              alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="https://dummyimage.com/400x400"
+            <Image
+              src="/vector1.svg"
+              width={600}
+              height={600}
+              alt="Picture of skill vector"
             />
           </div>
         </div>
