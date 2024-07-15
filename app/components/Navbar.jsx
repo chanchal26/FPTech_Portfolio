@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
     <SubHeader />
-    <nav className="bg-[#E1EAFF] sticky top-0">
+    <nav className="bg-[#E1EAFF] sticky top-0 z-10">
       <div className="max-w-7xl mx-auto p-2 sm:px-6 lg:px-4">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

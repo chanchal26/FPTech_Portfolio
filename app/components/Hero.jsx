@@ -37,7 +37,7 @@ const Hero = () => {
                 className="px-8 py-3 mr-4 text-lg font-medium rounded bg-[#684DF4] text-white hover:bg-gray-900 transition-colors duration-700"
               >
                 ABOUT US{" "} 
-                <FaArrowRight className="inline-flex" />
+                <FaArrowRight className="inline-flex mb-1 ml-1" />
               </a>
                 
               <a
