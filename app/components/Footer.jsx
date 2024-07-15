@@ -167,9 +167,10 @@ const Footer = () => {
                 <li>
                   <Link href="#" className="flex justify-center space-x-3">
                     <Image
-                      src="/meeting2.jpg"
-                      width={500}
-                      height={500}
+                      src="/meeting.jpg"
+                      className="hover:scale-125 duration-500"
+                      width={80}
+                      height={80}
                       alt="Picture of services card"
                       />
                     <div>
@@ -186,15 +187,11 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href="#" className="flex justify-center space-x-3">
-                    {/* <img
-                      src="https://placehold.co/600x600"
-                      alt=""
-                      className="w-20 h-20 bg-center bg-cover rounded-md hover:scale-125 duration-500"
-                    /> */}
                     <Image
-                      src="/meeting2.jpg"
-                      width={500}
-                      height={500}
+                      src="/meeting.jpg"
+                      className="hover:scale-125 duration-500"
+                      width={80}
+                      height={80}
                       alt="Picture of services card"
                       />
                     <div>

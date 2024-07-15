@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <>
       <section id="services" class="text-gray-900 body-font">
-        <div class="container py-24 mx-auto">
+        <div class="container py-24 mx-auto max-w-7xl">
           <div class=" flex flex-col sm:flex-row sm:items-center items-start justify-between mx-auto">
             <div>
               <p className="leading-3 text-xl text-[#684DF4]">

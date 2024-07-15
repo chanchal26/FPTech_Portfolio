@@ -6,8 +6,8 @@ const Skills = () => {
   return (
     <>
       <section className="text-gray-600 body-font overflow-hidden bg-[#F5F5F5]">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="mx-auto flex flex-wrap">
+        <div className="container px-5 py-24 mx-auto max-w-7xl">
+          <div className="mx-auto flex items-center flex-wrap">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
               <p className="leading-3 text-xl text-[#684DF4]">
                 <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}
@@ -77,10 +77,11 @@ const Skills = () => {
               </div>
             </div>
             <Image
-              src="/vector1.svg"
+              src="/vector2.svg"
+              className="drop-shadow-md"
               width={600}
-              height={600}
-              alt="Picture of skill vector"
+              height={500}
+              alt="Picture of about vector"
             />
           </div>
         </div>

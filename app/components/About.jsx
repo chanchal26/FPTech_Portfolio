@@ -12,11 +12,12 @@ const About = () => {
         className="text-gray-900 bg-[#F5F5F5] body-font overflow-hidden"
       >
         <div className="container px-5 py-24 mx-auto max-w-7xl">
-          <div className=" mx-auto flex flex-wrap">
+          <div className="mx-auto flex items-center flex-wrap">
             <Image
-              src="/vector2.svg"
+              src="/vector1.svg"
+              className="drop-shadow-md"
               width={600}
-              height={600}
+              height={500}
               alt="Picture of about vector"
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
