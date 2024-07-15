@@ -51,7 +51,7 @@ const Services = () => {
                           <p class="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
-                            quality internal or "organic" sources for virtual
+                            quality internal or organic sources for virtual
                             e-business.
                           </p>
                         </a>
@@ -80,7 +80,7 @@ const Services = () => {
                           <p class="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
-                            quality internal or "organic" sources for virtual
+                            quality internal or organic sources for virtual
                             e-business.
                           </p>
                         </a>
@@ -109,7 +109,7 @@ const Services = () => {
                           <p class="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
-                            quality internal or "organic" sources for virtual
+                            quality internal or organic sources for virtual
                             e-business.
                           </p>
                         </a>
@@ -138,7 +138,7 @@ const Services = () => {
                           <p class="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
-                            quality internal or "organic" sources for virtual
+                            quality internal or organic sources for virtual
                             e-business.
                           </p>
                         </a>

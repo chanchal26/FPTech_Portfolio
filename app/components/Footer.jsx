@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {
@@ -165,11 +166,12 @@ const Footer = () => {
               <div className="list-none mb-10 space-y-5">
                 <li>
                   <Link href="#" className="flex justify-center space-x-3">
-                    <img
-                      src="https://placehold.co/600x600"
-                      alt=""
-                      className="w-20 h-20 bg-center bg-cover rounded-md hover:scale-125 duration-500"
-                    />
+                    <Image
+                      src="/meeting2.jpg"
+                      width={500}
+                      height={500}
+                      alt="Picture of services card"
+                      />
                     <div>
                       <p className="leading-tight hover:text-[#684DF4] transition-colors duration-300">Unsatiable Entreaties May Collecting Power.</p>
                       <p
@@ -184,11 +186,17 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href="#" className="flex justify-center space-x-3">
-                    <img
+                    {/* <img
                       src="https://placehold.co/600x600"
                       alt=""
                       className="w-20 h-20 bg-center bg-cover rounded-md hover:scale-125 duration-500"
-                    />
+                    /> */}
+                    <Image
+                      src="/meeting2.jpg"
+                      width={500}
+                      height={500}
+                      alt="Picture of services card"
+                      />
                     <div>
                       <span className="leading-tight hover:text-[#684DF4] transition-colors duration-300">Unsatiable Entreaties May Collecting Power.</span>
                       <p
