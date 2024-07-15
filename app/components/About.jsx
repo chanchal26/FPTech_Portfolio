@@ -1,13 +1,15 @@
 import React from "react";
 import { FaCheckSquare } from "react-icons/fa";
 import { LiaVectorSquareSolid } from "react-icons/lia";
+import { FaArrowRight } from "react-icons/fa6";
+
 
 
 
 const About = () => {
   return (
     <>
-      <section class="text-gray-900 body-font overflow-hidden">
+      <section id="aboutus" class="text-gray-900 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto max-w-7xl">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <img
@@ -27,8 +29,8 @@ const About = () => {
                 <p><FaCheckSquare className="bg-white text-[#684DF4] inline-flex text-xl mr-1"/> Professional User Experince & Interface researching</p>
               </div>
               <div class="flex">
-                <button class=" text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Button
+                <button class=" text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-gray-900 transition-colors duration-700 rounded">
+                DISCOVER MORE <FaArrowRight className="inline-flex mb-1 ml-1" />
                 </button>
               </div>
             </div>

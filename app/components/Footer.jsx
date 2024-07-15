@@ -206,7 +206,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-[#684DF4] text-white">
-          <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <div className="container mx-auto max-w-7xl py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-sm text-center sm:text-left">
               Copyright © 2024{" "}
               <Link

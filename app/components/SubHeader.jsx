@@ -11,8 +11,8 @@ import {
 
 const SubHeader = () => {
   return (
-    <div className="bg-[#684DF4] py-4 text-white">
-      <div className="max-w-7xl container mx-auto block justify-center lg:flex items-center lg:justify-between">
+    <div className="bg-[#684DF4] text-white">
+      <div className="max-w-7xl container mx-auto py-4 justify-center lg:flex items-center lg:justify-between">
         <div className="hidden lg:flex items-center space-x-5">
           <div className="flex items-center space-x-2">
             <FaMapMarkerAlt />

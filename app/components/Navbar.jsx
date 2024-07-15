@@ -57,41 +57,41 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex items-center justify-center lg:justify-between sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0">
-              <Link href="/" className="text-gray-700 text-xl font-bold">
+              <Link href="#" className="text-gray-700 text-xl font-bold">
                 Logo
               </Link>
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
                 <Link
-                  href="/"
+                  href="#"
                   className="text-gray-700 hover:text-[#684DF4] px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Home
+                  HOME
                 </Link>
                 <Link
-                  href="/projects"
+                  href="#services"
                   className="text-gray-700 hover:text-[#684DF4] px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Services
+                  SERVICES
                 </Link>
                 <Link
-                  href="/about"
+                  href="#aboutus"
                   className="text-gray-700 hover:text-[#684DF4] px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  About
+                  ABOUT US
                 </Link>
                 <Link
-                  href="/contact"
+                  href="#contact"
                   className="text-gray-700 hover:text-[#684DF4] px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Contact
+                  CONTACT
                 </Link>
                 <Link
-                  href="/blog"
+                  href="#blog"
                   className="text-gray-700 hover:text-[#684DF4] px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Blog
+                  BLOG
                 </Link>
               </div>
             </div>
@@ -105,34 +105,34 @@ const Navbar = () => {
       >
         <div className="px-2 pt-2 pb-3 space-y-1">
           <Link
-            href="/"
+            href="#"
             className="text-gray-700 hover:text-[#684DF4] block px-3 py-2 rounded-md text-base font-medium"
           >
-            Home
+            HOME
           </Link>
           <Link
-            href="/projects"
+            href="#services"
             className="text-gray-700 hover:text-[#684DF4] block px-3 py-2 rounded-md text-base font-medium"
           >
-            Projects
+            SERVICES
           </Link>
           <Link
-            href="/about"
+            href="#aboutus"
             className="text-gray-700 hover:text-[#684DF4] block px-3 py-2 rounded-md text-base font-medium"
           >
-            About
+            ABOUT US
           </Link>
           <Link
-            href="/contact"
+            href="#contact"
             className="text-gray-700 hover:text-[#684DF4] block px-3 py-2 rounded-md text-base font-medium"
           >
-            Contact
+            CONTACT
           </Link>
           <Link
-            href="/blog"
+            href="#blog"
             className="text-gray-700 hover:text-[#684DF4] block px-3 py-2 rounded-md text-base font-medium"
           >
-            Blog
+            BLOG
           </Link>
         </div>
       </div>
