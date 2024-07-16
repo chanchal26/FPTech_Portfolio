@@ -23,7 +23,7 @@ const About = () => {
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <p className="leading-relaxed text-xl text-[#684DF4]">
                 <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}
-                ABOUT FUSION PULSE TECK IT SOLUTIONS
+                ABOUT FUSION PULSE TECH IT SOLUTIONS
               </p>
               <h1 className="text-3xl font-bold py-10">
                 Preparing For Your Business Provide Best{" "}

@@ -15,7 +15,7 @@ const Contact = () => {
               CONTACT US
             </h1>
             <h1 className="text-xl font-bold py-5">
-            Have Questions? We're Just a Message Away!
+            Have Questions? We are Just a Message Away!
               </h1>
           </div>
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
