@@ -4,6 +4,7 @@ import About from './components/About';
 import Stats from './components/Stats';
 import Skills from './components/Skills';
 import Services from './components/Services';
+import Team from './components/Team';
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <Stats />
       <Skills />
       <Services />
+      <Team />
     </>
   );
 };

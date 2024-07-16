@@ -29,8 +29,8 @@ const Services = () => {
           </div>
           {/* card */}
 
-          <section>
-            <div class="relative py-12 sm:px-6 lg:py-16">
+          <div>
+            <div class="relative py-12 sm:px-6 lg:pt-16">
               <div class="relative mx-auto max-w-7xl">
                 <div class="grid max-w-lg gap-5 mx-auto md:grid-cols-2 md:max-w-none lg:grid-cols-4 lg:max-w-none">
                   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
@@ -152,7 +152,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </section>
     </>

@@ -1,14 +1,12 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import SubHeader from "./SubHeader";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-    <SubHeader />
     <nav className="bg-[#E1EAFF] sticky top-0 z-10">
       <div className="max-w-7xl mx-auto p-2 sm:px-6 lg:px-4">
         <div className="relative flex items-center justify-between h-16">
