@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {
@@ -166,7 +165,7 @@ const Footer = () => {
                 GET IN TOUCH!
               </span>
               <div className="py-6">
-                <p>
+                <p className="text-gray-500">
                   Subsrcibe to our upcoming latest article and news resources.
                   Sign up today for hints. tips and the latest product news.
                 </p>
@@ -175,11 +174,10 @@ const Footer = () => {
                 <div class="flex items-center">
                   <input
                     type="email"
-                    id="input-9"
                     class="w-full h-10 px-3 text-sm text-gray-700 border border-r-0 rounded-r-none border-blue-500 focus:outline-none rounded shadow-sm"
                     placeholder="user@mail.com"
                   />
-                  <button class="h-10 px-4 text-sm bg-blue-500 border border-l-0 border-blue-500 rounded-r shadow-sm text-blue-50 hover:text-white hover:bg-blue-400 hover:border-blue-400 focus:outline-none">
+                  <button class="h-10 px-4 text-sm bg-[#684DF4] border border-l-0 border-[#684DF4] rounded-r shadow-sm text-blue-50 hover:text-white hover:bg-gray-700 hover:border-gray-700 focus:outline-none">
                     <SiMinutemailer className="w-5 h-5"/>
                   </button>
                 </div>

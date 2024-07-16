@@ -36,11 +36,11 @@ const Hero = () => {
                 href="#"
                 className="px-8 py-3 mr-4 text-lg font-medium rounded bg-[#684DF4] text-white hover:bg-gray-900 transition-colors duration-700"
               >
-                ABOUT US{" "} 
-                <FaArrowRight className="inline-flex mb-1 ml-1" />
+                MAKE SCHEDULE 
+                {/* <FaArrowRight className="inline-flex mb-1 ml-1" /> */}
               </a>
                 
-              <a
+              {/* <a
                 
                 href="#"
                 className="p-4 text-lg font-medium rounded-full text-white bg-[#684DF4] hover:bg-gray-900 transition-colors duration-700"
@@ -50,7 +50,7 @@ const Hero = () => {
               <div>
                 <Link href="#" className="text-lg font-semibold hover:text-[#684DF4] transition-colors duration-700">Watch Our Story</Link>
                 <p className="text-gray-500">Subscribe Now</p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="flex items-center justify-center py-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
