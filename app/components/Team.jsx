@@ -14,7 +14,7 @@ const Team = () => {
             <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}
             GREAT TEAM
           </p>
-          <h1 className="text-3xl font-bold py-5">
+          <h1 className="text-3xl font-bold py-5 text-center">
             See Our Skilled Expert{" "}
             <span className="text-[#684DF4] font-medium">Team</span>
           </h1>
