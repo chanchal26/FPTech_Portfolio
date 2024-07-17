@@ -6,9 +6,9 @@ import Image from "next/image";
 const Services = () => {
   return (
     <>
-      <section id="services" class="text-gray-900 body-font bg-[#F0F4FF]">
-        <div class="container py-24 mx-auto max-w-7xl px-5 lg:px-0">
-          <div class=" flex flex-col sm:flex-row sm:items-center items-start justify-between mx-auto px-0 lg:px-5">
+      <section id="services" className="text-gray-900 body-font bg-[#F0F4FF]">
+        <div className="container py-24 mx-auto max-w-7xl px-5 lg:px-0">
+          <div className=" flex flex-col sm:flex-row sm:items-center items-start justify-between mx-auto px-0 lg:px-5">
             <div>
               <p className="leading-relaxed text-xl text-[#684DF4]">
                 <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}
@@ -31,11 +31,11 @@ const Services = () => {
           {/* card */}
 
           <div>
-            <div class="relative py-12 sm:px-6 lg:pt-16">
-              <div class="relative mx-auto max-w-7xl">
-                <div class="grid max-w-lg gap-5 mx-auto md:grid-cols-2 md:max-w-none lg:grid-cols-4 lg:max-w-none">
-                  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
+            <div className="relative py-12 sm:px-6 lg:pt-16">
+              <div className="relative mx-auto max-w-7xl">
+                <div className="grid max-w-lg gap-5 mx-auto md:grid-cols-2 md:max-w-none lg:grid-cols-4 lg:max-w-none">
+                  <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                    <div className="flex-shrink-0">
                       <Image
                       src="/meeting2.jpg"
                       width={500}
@@ -43,13 +43,13 @@ const Services = () => {
                       alt="Picture of services card"
                       />
                     </div>
-                    <div class="flex flex-col justify-center flex-1 p-3 bg-white">
-                      <div class="flex-1 text-center">
-                        <a href="#" class="block mt-2">
-                          <p class="text-xl font-semibold text-gray-900">
+                    <div className="flex flex-col justify-center flex-1 p-3 bg-white">
+                      <div className="flex-1 text-center">
+                        <a href="#" className="block mt-2">
+                          <p className="text-xl font-semibold text-gray-900">
                             Web Development
                           </p>
-                          <p class="mt-3 text-base text-gray-500">
+                          <p className="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
                             quality internal or organic sources for virtual
@@ -63,8 +63,8 @@ const Services = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
+                  <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                    <div className="flex-shrink-0">
                     <Image
                       src="/meeting2.jpg"
                       width={500}
@@ -72,13 +72,13 @@ const Services = () => {
                       alt="Picture of services card"
                       />
                     </div>
-                    <div class="flex flex-col justify-center flex-1 p-3 bg-white">
-                      <div class="flex-1 text-center">
-                        <a href="#" class="block mt-2">
-                          <p class="text-xl font-semibold text-gray-900">
+                    <div className="flex flex-col justify-center flex-1 p-3 bg-white">
+                      <div className="flex-1 text-center">
+                        <a href="#" className="block mt-2">
+                          <p className="text-xl font-semibold text-gray-900">
                             UI/UX Design
                           </p>
-                          <p class="mt-3 text-base text-gray-500">
+                          <p className="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
                             quality internal or organic sources for virtual
@@ -92,8 +92,8 @@ const Services = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
+                  <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                    <div className="flex-shrink-0">
                     <Image
                       src="/meeting2.jpg"
                       width={500}
@@ -101,13 +101,13 @@ const Services = () => {
                       alt="Picture of services card"
                       />
                     </div>
-                    <div class="flex flex-col justify-center flex-1 p-3 bg-white">
-                      <div class="flex-1 text-center">
-                        <a href="#" class="block mt-2">
-                          <p class="text-xl font-semibold text-gray-900">
+                    <div className="flex flex-col justify-center flex-1 p-3 bg-white">
+                      <div className="flex-1 text-center">
+                        <a href="#" className="block mt-2">
+                          <p className="text-xl font-semibold text-gray-900">
                             Digital Marketing
                           </p>
-                          <p class="mt-3 text-base text-gray-500">
+                          <p className="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
                             quality internal or organic sources for virtual
@@ -121,8 +121,8 @@ const Services = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
+                  <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                    <div className="flex-shrink-0">
                     <Image
                       src="/meeting2.jpg"
                       width={500}
@@ -130,13 +130,13 @@ const Services = () => {
                       alt="Picture of services card"
                       />
                     </div>
-                    <div class="flex flex-col justify-center flex-1 p-3 bg-white ">
-                      <div class="flex-1 text-center">
-                        <a href="#" class="block mt-2">
-                          <p class="text-xl font-semibold text-gray-900">
+                    <div className="flex flex-col justify-center flex-1 p-3 bg-white ">
+                      <div className="flex-1 text-center">
+                        <a href="#" className="block mt-2">
+                          <p className="text-xl font-semibold text-gray-900">
                             Software Services
                           </p>
-                          <p class="mt-3 text-base text-gray-500">
+                          <p className="mt-3 text-base text-gray-500">
                             Globally optimize highly efficient solution whereas
                             open-source application. Completely strategize
                             quality internal or organic sources for virtual

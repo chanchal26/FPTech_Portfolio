@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Services from './components/Services';
 import Team from './components/Team';
 import Contact from './components/Contact';
+import Project from './components/Project';
 
 const page = () => {
   return (
@@ -16,6 +17,7 @@ const page = () => {
       <Skills />
       <Services />
       <Team />
+      <Project />
       <Contact />
     </>
   );

@@ -68,7 +68,7 @@ const Navbar = () => {
                   HOME
                 </Link>
                 <Link
-                  href="#product"
+                  href="#projects"
                   className="text-gray-700 hover:text-[#684DF4] transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   PRODUCT
