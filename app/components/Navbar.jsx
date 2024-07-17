@@ -55,8 +55,8 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex items-center justify-center lg:justify-between sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0">
-              <Link href="#" className="text-gray-700 text-xl font-bold">
-                Logo
+              <Link href="#" className="text-gray-700 text-3xl font-bold">
+                FPT
               </Link>
             </div>
             <div className="hidden sm:block sm:ml-6">

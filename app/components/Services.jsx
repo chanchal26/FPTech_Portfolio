@@ -10,7 +10,7 @@ const Services = () => {
         <div class="container py-24 mx-auto max-w-7xl">
           <div class=" flex flex-col sm:flex-row sm:items-center items-start justify-between mx-auto">
             <div>
-              <p className="leading-3 text-xl text-[#684DF4]">
+              <p className="leading-relaxed text-xl text-[#684DF4]">
                 <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}
                 WHAT WE DO
               </p>

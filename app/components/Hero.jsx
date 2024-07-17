@@ -20,7 +20,7 @@ const Hero = () => {
         </div> */}
         <div className="max-w-7xl container mx-auto flex flex-col items-center justify-center p-6 sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center py-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-            <p className="leading-3 text-2xl pb-5 text-[#684DF4]">BEST MARKETING SERVICE</p>
+            <p className="leading-relaxed text-2xl pb-5 text-[#684DF4]">BEST MARKETING SERVICE</p>
             <h1 className="text-5xl font-bold sm:text-6xl">
                 Make The Easiest
                 Solution For You

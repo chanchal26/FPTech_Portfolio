@@ -26,7 +26,7 @@ const Footer = () => {
               effective users via team driven.
             </p>
             <div className="flex flex-col justify-center pt-5 lg:pt-2">
-              <div className="flex justify-start space-x-4 pt-5">
+              <div className="flex justify-center lg:justify-start space-x-4 pt-5">
                 <a
                   href="#"
                   title="Facebook"
