@@ -7,7 +7,7 @@ const Project = () => {
     <>
       <section id="projects" className="text-gray-900 body-font bg-[#F0F4FF]">
         <div className="container py-24 mx-auto max-w-7xl px-5 lg:px-0">
-          <div class=" flex flex-col sm:flex-row sm:items-center items-start justify-between mx-auto px-0 lg:px-5">
+          <div class="flex flex-col sm:flex-row sm:items-center items-start justify-between mx-auto px-0">
             <div>
               <p className="leading-relaxed text-xl text-[#684DF4]">
                 <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}

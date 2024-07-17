@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Project from './components/Project';
+import Blog from './components/Blog';
 
 const page = () => {
   return (
@@ -18,6 +19,7 @@ const page = () => {
       <Services />
       <Team />
       <Project />
+      <Blog />
       <Contact />
     </>
   );
